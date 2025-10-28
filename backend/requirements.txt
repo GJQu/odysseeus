@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+pandas
+openai
+python-docx
+pillow
+exifread
+geopy
+scikit-learn
+numpy
+streamlit
+plotly
+fpdf
+python-dotenv
