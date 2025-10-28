@@ -1,0 +1,25 @@
+# 1. ignore Python venv
+/venv
+.venv/
+
+# ignore CPython specific files 
+*.pyc
+__pycache__/
+
+# Python packaging/build artifacts
+*.egg-info/
+/dist/
+/build/
+
+# 2. sensitive config files
+/backend/.env
+
+# 3. generated and output data 
+/backend/data/output/
+
+# 4 mac specific 
+.DS_Store
+.vscode/
+
+# PyCharm
+.idea/
